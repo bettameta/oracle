@@ -39,6 +39,11 @@ $(document).ready(function()
 
     };   
 
-    // CALLING THE FUNCTION OUTSIDE FORMULA | QUESTION //
+    // PROMPT JQ FORMULA | QUESTION BUTTON//
+
+    var askme = function(){
+        var question = prompt("PLEASE ASK ME A YES/NO QUESTION");
+    };
+        $("#questionButton").click(askme);
 
 });
