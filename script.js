@@ -7,8 +7,8 @@ $(document).ready(function()
     // CREATE A PROPERTY OF THE OBJECT AND IT'S ARRAY OF ANSWERS 
     oracle.answers = 
     [
-    "Concentrate harder the answer will come to you.", 
-    "Who’s to say?", 
+        "Concentrate harder the answer will come to you.", 
+        "Who’s to say?", 
         "Now if I tell you, what have you learned?", 
         "Ask me again, I like it!", 
         "I could say NO here, but should I?",
@@ -45,12 +45,13 @@ $(document).ready(function()
         var question = prompt("Let's have some fun, ask me a YES/NO question!");
         oracle.prophesize(question);
     };
-
-    //  JQ GET THE ANSWER TO APPEAR 
-    /*var randomAnswer = function(){
-        var answer = 
-    };*/
-    
         $("#questionButton").click(askMe);
-        $("#answer").text(answerText);
+
+    //  JQ FORMULA TO GET THE ANSWER TO APPEAR //
+
+    
+    var yourAnswer = function(){
+        oracle.answers(randomAnswer);
+    };      
+        $("#answer").text(yourAnswer);
 });
