@@ -33,10 +33,13 @@ $(document).ready(function()
     // CREATE VARIABLE FOR THE RANDOM NUMBER //
     var randomAnswer = this.answers[randomIndex];
 
+    
+
     // PROMPT QUESTION AND ANSWER FROM INSIDE FUNCTION FORMULA
     console.log (question);
     console.log (randomAnswer);
 
+    $("#answer").text(randomAnswer);
     };   
 
     // PROMPT JQ FORMULA | QUESTION BUTTON//
@@ -50,12 +53,12 @@ $(document).ready(function()
     //  JQ FORMULA TO GET THE ANSWER TO APPEAR //
 
     
-    //  JQ FORMULA TO GET THE ANSWER TO APPEAR 
+    /*  JQ FORMULA TO GET THE ANSWER TO APPEAR 
   var randomAnswer = function() {
     oracle.answers(randomAnswer);
-    // oracle.answers(answer);
-    // The only thing here that is validated is oracle.answers Nothing else is defined //
-  };
-  $("#answer").text(randomAnswer);
+     oracle.answers(answer);
+     $("#answer").text(randomAnswer);
+  };*/
   
+
 });
