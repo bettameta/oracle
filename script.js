@@ -41,9 +41,16 @@ $(document).ready(function()
 
     // PROMPT JQ FORMULA | QUESTION BUTTON//
 
-    var askme = function(){
-        var question = prompt("PLEASE ASK ME A YES/NO QUESTION");
+    var askMe = function(){
+        var question = prompt("Let's have some fun, ask me a YES/NO question!");
+        oracle.prophesize(question);
     };
-        $("#questionButton").click(askme);
 
+    //  JQ GET THE ANSWER TO APPEAR 
+    /*var randomAnswer = function(){
+        var answer = 
+    };*/
+    
+        $("#questionButton").click(askMe);
+        $("#answer").text(answerText);
 });
