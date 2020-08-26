@@ -50,8 +50,12 @@ $(document).ready(function()
     //  JQ FORMULA TO GET THE ANSWER TO APPEAR //
 
     
-    var yourAnswer = function(){
-        oracle.answers(randomAnswer);
-    };      
-        $("#answer").text(yourAnswer);
+    //  JQ FORMULA TO GET THE ANSWER TO APPEAR 
+  var randomAnswer = function() {
+    oracle.answers(randomAnswer);
+    // oracle.answers(answer);
+    // The only thing here that is validated is oracle.answers Nothing else is defined //
+  };
+  $("#answer").text(randomAnswer);
+  
 });
