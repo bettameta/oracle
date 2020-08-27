@@ -7,16 +7,16 @@ $(document).ready(function()
         // CREATE A PROPERTY OF THE OBJECT AND IT'S ARRAY OF ANSWERS 
     oracle.answers = 
     [
-        "Concentrate harder the answer will come to you.", 
-        "Who’s to say?", 
-        "Now if I tell you, what have you learned?", 
+        "Concentrate, the answer will come to you.", 
+        "Who’s to say ?", 
+        "If I tell you, what have you learned?", 
         "Ask me again, I like it!", 
-        "I could say NO here, but should I?",
-        "I could say YES here, but should I?", 
-        "YES!", 
-        "No!", 
+        "I could say NO here, but should I ?",
+        "I could say YES here, but should I ?", 
+        "You could safely say yes !", 
+        "It is seriously doubtful !", 
         "Well, what do YOU think?", 
-        "It tickles my JavaScript when you ask me that. Do it again!"
+        "It tickles my JavaScript when you say that!"
     ];
     $("#answer").hide();
      
@@ -46,7 +46,7 @@ $(document).ready(function()
         // PROMPT JQ FORMULA | QUESTION BUTTON//
     var askMe = function()
     {
-    $("#8ball").attr("src", "https://i.postimg.cc/jq3xc8JS/oracle-two.png");
+    $("#8ball").attr("src", "https://i.postimg.cc/3RxLSGtQ/oracle-two.png");
     $("#answer").hide();
         var question = prompt("Let's have some fun, ask me a YES/NO question!");
         oracle.prophesize(question);

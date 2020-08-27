@@ -18,12 +18,12 @@ body {
 }
 .answer {
   position: absolute;
-  width:17%;
-  top:50%;
+  width:14%;
+  top:45%;
   left:53%;
   margin-top:-60px;
   margin-left:-65px;
-  font: 14px 'Open Sans', Helvetica, Arial, sans-serif;
+  font: 16px 'Open Sans', Helvetica, Arial, sans-serif;
   color: #222;
   text-transform: uppercase;
 }
