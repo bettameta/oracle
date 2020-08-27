@@ -16,13 +16,15 @@ $(document).ready(function()
         "YES!", 
         "No!", 
         "Well, what do YOU think?", 
-        "It tickles my JavaScript when you ask me that, do it again!"
+        "It tickles my JavaScript when you ask me that. Do it again!"
     ];
     $("#answer").hide();
      
         // CREATE A METHOD TO PRODUCE RANDOM ANSWERS FROM ARRAY//
-    oracle.prophesize = function(question){ 
-    $("#answer").fadeIn(4000);                                 
+    oracle.prophesize = function(question)
+    { 
+    $("#answer").fadeIn(4000);
+
                 // FORMULA //
         // CREATE RANDOM NUMBER BETWEEN 0 AND 1 //
         var randomNumber = Math.random();
@@ -42,12 +44,14 @@ $(document).ready(function()
     };   
     
         // PROMPT JQ FORMULA | QUESTION BUTTON//
-    var askMe = function(){
+    var askMe = function()
+    {
+    $("#8ball").attr("src", "https://i.postimg.cc/jq3xc8JS/oracle-two.png");
     $("#answer").hide();
         var question = prompt("Let's have some fun, ask me a YES/NO question!");
         oracle.prophesize(question);
     };
-    $("#answer").hide();
+    
     $("#questionButton").click(askMe);
      
 });
