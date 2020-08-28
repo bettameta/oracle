@@ -19,7 +19,7 @@ $(document).ready(function() {
     $("#answer").hide();
     
     // CREATE A METHOD TO PRODUCE RANDOM ANSWERS FROM ARRAY//
-    oracle.prophesize = function() {
+    oracle.prophesise = function() {
       $("#answer").fadeIn(4000);
       // FORMULA //
       // CREATE RANDOM NUMBER BETWEEN 0 AND 1 //
@@ -47,7 +47,7 @@ $(document).ready(function() {
       // SET TIMEOUT FUNCTION TO DELAY CHANGES HERE //
       setTimeout(function() {
         var question = prompt("Let's have some fun, ask me a YES/NO question!");
-        oracle.prophesize(question);
+        oracle.prophesise(question);
       }, 1000);
     };
     $("#questionButton").click(askMe);
