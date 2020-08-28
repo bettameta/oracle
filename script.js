@@ -14,14 +14,13 @@ $(document).ready(function() {
       "You could safely say yes !",
       "It is seriously doubtful !",
       "Well, what do YOU think?",
-      "It tickles my JavaScript when you say that!"
+      "It tickles my JavaScript when you ask that!"
     ];
     $("#answer").hide();
     
     // CREATE A METHOD TO PRODUCE RANDOM ANSWERS FROM ARRAY//
-    oracle.prophesize = function(question) {
-     
-        $("#answer").fadeIn(4000);
+    oracle.prophesize = function() {
+      $("#answer").fadeIn(4000);
       // FORMULA //
       // CREATE RANDOM NUMBER BETWEEN 0 AND 1 //
       var randomNumber = Math.random();
