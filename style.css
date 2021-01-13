@@ -1,37 +1,63 @@
+/* BASE STYLES */
 body {
   font-family: "Montserrat", sans-serif;
+  font-size: 16px;
   color: #9c9a9a;
   margin: 0px;
   padding: 0px;
+  text-align: center;
   background-color: #01011f;
-  background-image: url('bkgd2.png');
+  background-image: url('https://i.postimg.cc/zBSdmFRS/stars.jpg');
+  /* background photo by francesco ungaro from pexels */
 }
-.page {
+
+.page{
   max-width: 960px;
-  min-width: 320px;
+  min-width: 300px;
   margin: 0 auto;
-  background-color: #01011f;
 }
-.ball, .button {
-  margin: 0 auto;
-  position:relative; 
-  width:75%;
+
+/* HEADER */
+header {
+  padding-top: 1.5em;
 }
+
+header span {
+  font-size: 60px;
+  color: #d13b33;
+}
+
+/* FONTS */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* IMG */
+.ball {
+/* margin: 0 auto; */ 
+  position:relative;   
+}
+
+.ball img{
+  width: 100%;
+}
+
+/* JS RESULTS */
 .answer {
   position: absolute;
-  width:14%;
-  top:45%;
-  left:53%;
-  margin-top:-60px;
-  margin-left:-65px;
-  font: 16px 'Open Sans', Helvetica, Arial, sans-serif;
+  width: 15%;
+  top: 38%;
+  left: 43%;
+  bottom: 50%;
+  margin: 0;
+  font: 1em 'Open Sans', sans-serif;
   color: #222;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 #questionButton {
-  font: 26px 'Montserrat', Helvetica, Arial, sans-serif;
+  font: 1.62em 'Montserrat', Helvetica, Arial, sans-serif;
   border-radius: 5px;
   border: none;
   color: #f8f8f8;
@@ -41,19 +67,7 @@ body {
   margin: 0 auto;
 }
 
-header {
-  padding-top: 0.25em;
-  text-align: center;
-}
-header span {
-  font-size: 60px;
-  color: #d13b33;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat", sans-serif;
-}
-
+/* FOOTER */
 footer p {
   font-family: "Montserrat", sans-serif;
   text-align: center;

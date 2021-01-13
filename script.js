@@ -5,16 +5,15 @@ $(document).ready(function() {
     var oracle = {};
     // CREATE A PROPERTY OF THE OBJECT AND IT'S ARRAY OF ANSWERS 
     oracle.answers = [
-      "Concentrate, the answer will come to you.",
       "Who’s to say ?",
-      "If I tell you, what have you learned?",
+      "If I tell you, what've you learned?",
       "Ask me again, I like it!",
-      "I could say NO here, but should I ?",
-      "I could say YES here, but should I ?",
+      "I could say NO, but... ?",
+      "I could say YES, but... ?",
       "You could safely say yes !",
-      "It is seriously doubtful !",
-      "Well, what do YOU think?",
-      "It tickles my JavaScript when you ask that!"
+      "It is doubtful !",
+      "Well, what do YOU think ?",
+      "Wow, that tickled my JavaScript !"
     ];
     $("#answer").hide();
     
