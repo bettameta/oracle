@@ -7,15 +7,15 @@ body {
   background-image: url('bkgd2.png');
 }
 .page {
-  width: 80%;
   max-width: 960px;
+  min-width: 320px;
   margin: 0 auto;
   background-color: #01011f;
 }
 .ball, .button {
   margin: 0 auto;
   position:relative; 
-  width:80%;
+  width:75%;
 }
 .answer {
   position: absolute;
