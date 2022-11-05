@@ -68,9 +68,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* FOOTER */
-footer p {
+footer h5 {
   font-family: "Montserrat", sans-serif;
   text-align: center;
-  text-transform: uppercase;
+  margin-top: 5%;
   font-size: 12px;
+  text-decoration: none;
+}
+
+footer h5 a{
+  text-decoration: none;
+  color: #9c9a9a;
+
 }
