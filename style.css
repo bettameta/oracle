@@ -66,6 +66,7 @@ h1 {
   padding: 10px 75px;
   display: block;
   margin: 0 auto;
+  cursor: pointer;
 }
 
 /* FOOTER */
