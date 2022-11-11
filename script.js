@@ -49,7 +49,7 @@ $(document).ready(function() {
         oracle.prophesise(question);
       }, 1000);
     };
-    $("#questionButton").click(askMe);
+    $("button").click(askMe);
   console.log("bug check");
   });
   
